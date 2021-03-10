@@ -1,8 +1,8 @@
 /* ============================== ROOT  ======================== */
 
 :root {
-  /* ========= color ============ */
 
+  /* ========= color ============ */
   --primary-text-color: #757575;
   --primary-heading-color: #212121;
   --primary-active-color: #2196f3;
@@ -127,6 +127,11 @@ img {
   line-height: 1.333;
   letter-spacing: 0.02em;
   color: var(--primary-heading-color);
+
+  transition-property: all;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0s;
 }
 
 .contacts-link {
@@ -139,6 +144,11 @@ img {
   text-decoration: none;
   align-items: center;
   display: flex;
+
+  transition-property: all;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0s;
 }
 
 .navigation-link:hover,
@@ -424,6 +434,11 @@ img {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+
+  transition-property: all;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0s;
 }
 
 .social-list-icon {
@@ -469,6 +484,11 @@ img {
   box-sizing: border-box;
   border-radius: 4px;
   color: #afb1b8;
+
+  transition-property: all;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0s;
 }
 
 .our-clients-icon {
@@ -560,6 +580,11 @@ address {
   align-items: center;
   background: rgba(255, 255, 255, 0.1);
   margin-right: 10px;
+
+  transition-property: all;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0s;
 }
 
 .footer-social-icon {
